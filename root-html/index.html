@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<!--
+	 Modified from the Debian original for Ubuntu
+	 Last updated: 2016-11-16
+	 See: https://launchpad.net/bugs/1288690
+	 logo color: #02D0E3
+	-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>PeraLabs Ltd.</title>
+
+<link href="https://use.fontawesome.com/10efd9fb11.css" media="all" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	</head>
+<style>
+
+
+
+.pera-london-bg {
+	background-image: url('images/london.jpg'); 
+	background-size:cover;
+	background-position: 0 -50px;
+	width:100%; 
+	height:600px; 
+	position: relative; 
+	
+}
+
+a.nav-link {
+	color:#02D0E3 !important;
+	font-weight:500;
+}
+.pera-tri-r {
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-left: 10px solid orange;
+      border-bottom: 5px solid transparent;
+    }
+ .pera-tri-d {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid orange;
+ }
+ .pera-sqr {
+      width: 10px;
+      height: 10px;
+      background: orange;
+  }
+  .pera-btn {
+   	background:orange;
+   	color:#000000; 
+   	border:0 !important!;
+   	border-color: orange;
+   	font-weight:500;
+  }
+
+   
+  .pera-footer {
+    border-top: 1px solid #001037;
+    background-color: #454567 !important;
+    width: 100%;
+    height: 430px;
+   	
+  }
+
+
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+  background-color: #001037 !important;
+}
+
+.vertical-menu div a {
+  background-color: #001037 !important;
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  justify-content: center;
+width:100%;
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+	color:orange !important;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+    color: #02D0E3;
+
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: #02D0E3;
+}
+
+
+.list-social {
+    display: flex;
+    justify-content: center;
+}
+.list-social li{
+	margin-right: 10px;
+}
+
+.pera-font{
+	color:#02D0E3 !important;
+	font-weight:500;
+}
+
+.pera-nav-bar {
+	background:#001037;
+}
+
+.pera-menu-font {
+	color:#02D0E3 !important;
+	font-weight: 500;
+}
+
+.pera-menu-font a {
+	color:#02D0E3 !important;
+	font-weight: 500;
+}
+
+.pera-ftr-btn {
+  
+}
+
+
+
+.pera-ftr-font {
+	color:orange !important;
+	font-weight: 600;
+	font-size:24px;
+}
+
+.pera-ftr-font a {
+	color:orange !important;
+	font-weight: 600;
+	font-size:24px;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+}
+
+.social-links div {
+	margin: 0 auto;
+	width:10%;
+	
+}
+
+.pera-address{
+	text-align: right;
+}
+
+body{
+background-color: #454567 !important;
+}
+
+
+.pera-card-body{
+	background-image: url('images/london_1px.jpg');
+	background-repeat: repeat;
+}
+.pera-middle-title{
+	background:#001037;
+	height:40px;
+	position:relative;
+	border-radius: 25px; 
+}
+
+.row-override{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.col-override{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+</style>
+	<body>
+		<div class="container-fluid">
+			<div class="row row-override" ><!--top-menu-->
+				<div class="col-md-12 col-override">
+					<nav class="navbar navbar-expand-lg navbar-light pera-nav-bar" >
+						<a class="navbar-brand" href="#"><img src="images/logo.png" width="192" height="32" /></a>
+						<div class="collapse navbar-collapse pera-font" id="bs-example-navbar-collapse-1" >
+								<ul class="navbar-nav ml-md-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item ">
+									<a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item ">
+									<a class="nav-link" href="#">Remote Working <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item ">
+									<a class="nav-link" href="#">Latest News <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item ">
+									<a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+								</li>
+								<!--li class="nav-item dropdown" style="margin-right:30px">
+									<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
+									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+										<div class="dropdown-divider">
+										</div> <a class="dropdown-item" href="#">Separated link</a>
+									</div>
+								</li-->
+								</ul>
+								<div class="form-inline " style="margin-left:30px;">
+									<div>
+										<div style="color:#ffb347;margin-right:4px;font-size:9px;" > +447397727922 </div> 
+										<div>
+											<img src="./images/twitter.png" width="14px" />
+											<img src="./images/linkedin.png" width="14px" />
+											<img src="./images/discord.png" width="14px"  />
+											<img src="./images/github.png" width="14px"  />
+										</div>
+									</div> 
+									<button class="btn btn-primary pera-btn" style="margin-left:13px;" type="button" onclick="javascript:window.location.href = 'mailto:info@peralabs.co.uk';"> 
+										Contact
+									</button>
+								</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="row row-override"><!--center image-->
+				<div class="col-md-12 col-override" >
+					<div class="pera-london-bg">
+						<div style="opacity:0.8;background-color:#232323;font-size:24px;color:#03D2E5;position: absolute; bottom: 0; left: 0;"> | Big Data | Machine Learning | Data Analytics | Information Technologies | </div>
+					</div>
+				</div>
+				
+
+			</div>
+			<div class="row row-override" style="margin-top:40px;"><!--middle-header-->
+				<div class="col-md-2 col-override" ></div>
+				<div class="col-md-8 col-override" >
+					<div class="pera-middle-title">
+						<div style="color:#01D0E0;font-size:24px;width:100%;height:100%;margin:auto;top:10%;text-align:center">
+							PeraLabs Consultancy London
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-override" ></div>
+			</div>
+			<div class="row pera-middle-row" style="margin-top:40px;">
+				<div class="col-md-3">&nbsp;</div>
+				<div class="col-md-2">
+					<div class="card" >
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-tri-d" style="top:30%;margin:0;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Java Spring Framework</h5>
+					    <p class="card-text">Microservices | Distributed systems | Event-Drivent Arcitechture | Data Streams | Enterprise Applications</p>
+					    <a href="#" class="btn btn-primary pera-btn" >Go</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="card">
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-sqr" style="top:30%;left:45%;margin:auto;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Machine Learning</h5>
+					    <p class="card-text">Text Analysis | NLP | Language Translation | Dialog Generation | Image Analysis | Object Detection | Image Classification | Image Segmentation.</p>
+					    <a href="#" class="btn btn-primary pera-btn">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="card">
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-tri-d" style="top:30%;right:5%;margin:0;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Python Development</h5>
+					    <p class="card-text">Microservices | Data Analysis | Data Pipelining and Streaming | Flask | Django | Jupyter.</p>
+					    <a href="#" class="btn btn-primary pera-btn">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3">&nbsp;</div>
+			</div>
+			
+			
+			<div class="row pera-middle-row row-override" style="margin-top:15px;">
+				<div class="col-md-3">&nbsp;</div>
+				<div class="col-md-2">
+					<div class="card" >
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-tri-d" style="top:30%;margin:0;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Data Science</h5>
+					    <p class="card-text">Model building | Hypothesis generation and testing | Discovering patterns | End to End Model building | Predictive analyics | Visual Analytics.</p>
+					    <a href="#" class="btn btn-primary pera-btn">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="card">
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-sqr" style="top:30%;left:45%;margin:auto;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Data Engineering</h5>
+					    <p class="card-text">Building Streaming Systems | Spark | Kafka | Spring Boot Reactive | Flink | Sink.</p>
+					    <a href="#" class="btn btn-primary pera-btn">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="card">
+					  <div class="card-header" style="height:20px;max-height:20px;background:#001037;position: relative;padding-left: 6px;">
+					    <div class="pera-tri-d" style="top:30%;right:5%;margin:0;position:absolute;"></div>
+					  </div>
+					  <div class="card-body pera-card-body">
+					    <h5 class="card-title">Cloud Native</h5>
+					    <p class="card-text">Amazon Cloud | Google Cloud | Azure Cloud | Infrasructure as a Code | Terraform | Kubernetes | Amazon Lambda | Google Functions | Azure Functions.</p>
+					    <a href="#" class="btn btn-primary pera-btn" >Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3">&nbsp;</div>
+			</div>
+			
+			
+
+
+			<div class="row row-override" style="margin-top:40px;">
+				<div class="col-md-4 col-override" style="background-color:#001037;">
+	                <nav role="footer-menu">
+	                    <div style="width:100%;"><img src="images/logo.png" style="display:block;margin:0 auto;" width="192" height="48" /></div>
+	                    <div class="vertical-menu pera-ftr-font">
+	                        <div><a href="index.html" class="pera-ftr-btn">Home</a></div>
+	                        <div><a href="about.html" class="pera-ftr-btn">About</a></div>
+	                        <div><a href="services.html" class="pera-ftr-btn">Services</a></div>
+	                        <div><a href="contact.html" class="pera-ftr-btn">Support</a></div>
+	                    </div>
+	                </nav>
+            	</div>
+                <div class="col-md-4 col-override" style="background-color:#001037;">
+                    <div class="pera-menu-font" style="text-align: center; font-size:32px;">PeraLabs @ Internet</div>
+                    <div style="width:100%; margin-top:30px;">
+	                    <div class="social-links" >
+	                    	<div><img src="./images/twitter.png" width="44px"  href="https://twitter.com/peralabsltd" /></div>
+							<div><img src="./images/linkedin.png" width="44px" href="https://www.linkedin.com/company/peralabsltd"/></div>
+							<div><img src="./images/discord.png" width="44px" href="https://discord.com/peralabsltd"  /></div>
+							<div><img src="./images/github.png" width="44px" href="https://github.com/peralabsltd" /></div>
+	                    </div>
+                	</div>
+                </div>
+
+                <div class="col-md-4 col-override pera-menu-font" style="background-color:#001037;"> 
+                    <div  class="pera-menu-font"  style="text-align: center; font-size:32px;">Contact</div>
+                    <div class="pera-ftr-font" style="display: flex; align-content: center; margin-top:20px;">
+                    	<div class="pera-address" style="margin:0 auto;">
+		                    <div><a href="mailto:info@peralabs.co.uk" class="pera-menu-font" >PeraLabs Ltd.</a></div>
+		                    <div>Dene Road, Headington</div>
+		                    <div>OX3 7JA, Oxford</div>
+		                    <div>UK</div>
+	                    </div>
+                	</div>
+                </div>
+
+                
+            </div>
+            <div class="row row-override">
+            	<div class="col-md-12" style="text-align: center; background-color:#001037;color:white;">
+            		<p>© 2020 PeraLabs Ltd. All rights reserved.</p>
+            	</div>
+            </div>
+
+            
+
+		</div>
+
+
+
+
+            
+        
+	</body>
+</html>
+
+

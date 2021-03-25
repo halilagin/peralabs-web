@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: peralabs-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: peralabs-web
+  template:
+    metadata:
+      labels:
+        app: peralabs-web
+    spec:
+      containers:
+      - name: peralabs-web
+        image: peralabs-web:0.0.1
+        ports:
+        - name: http-port
+          containerPort: 80
+        env:
+          - name: APPLICATION_SECRET
+            value: "test"
